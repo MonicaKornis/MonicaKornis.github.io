@@ -36,6 +36,12 @@
             let aboutStyle = document.getElementById('about1').style.display;
             let workStyle = document.getElementById('work1').style.display;
 
+            console.log(aboutStyle);
+            section.style.display = 'flex';
+            section.classList.add('open');
+            section.scrollTop = 0;
+            console.log('HELLO');
+
             if((aboutStyle === 'none'|| aboutStyle === '') && (id === 'work1')) {
               sidebar.style.minHeight = '220vh';
               console.log('work true');
@@ -56,9 +62,7 @@
             // } else {
             //   sidebar.style.minHeight = '280vh';
             // }
-            section.style.display = 'flex';
-            section.classList.add('open');
-            section.scrollTop = 0;
+
           }
 
 
