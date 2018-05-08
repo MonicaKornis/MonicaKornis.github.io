@@ -26,7 +26,10 @@
 
             if((aboutStyle === 'none'|| aboutStyle === '') && (workStyle === 'none' || workStyle === '')) {
               sidebar.style.minHeight = '110vh';
+            } else if ((aboutStyle === 'none'|| aboutStyle === '') && (workStyle !== 'none' || workStyle !== '')) {
+              sidebar.style.minHeight = '220vh';
             }
+
 
           } else if (section.style.display == '' || section.style.display == 'none' ) {
 
