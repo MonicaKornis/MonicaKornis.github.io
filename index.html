@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,600,600i,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
+    <title>Monica Ngoc Lan Kornis</title>
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <script type="text/javascript" async>
+    <!--
+        function toggleDropdown(id) {
+          let section = document.getElementById(id);
+          let sidebar = document.getElementById('sidebar');
+
+
+          console.log(section.style.display);
+
+          if(section.style.display == 'flex') {
+            section.style.display = 'none';
+            sidebar.style.minHeight = '140vh';
+
+            let aboutStyle = document.getElementById('about1').style.display;
+            let workStyle = document.getElementById('work1').style.display;
+
+            if((aboutStyle === 'none'|| aboutStyle === '') && (workStyle === 'none' || workStyle === '')) {
+              sidebar.style.minHeight = '110vh';
+            }
+
+          } else if (section.style.display == '' || section.style.display == 'none' ) {
+
+            let aboutStyle = document.getElementById('about1').style.display;
+            let workStyle = document.getElementById('work1').style.display;
+
+            if((aboutStyle === 'none'|| aboutStyle === '') && (id === 'work1')) {
+              sidebar.style.minHeight = '220vh';
+              console.log('work true');
+              console.log(sidebar.style.minHeight);
+            } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (id === 'work1')) {
+              console.log('both true');
+              sidebar.style.minHeight = '290vh';
+              console.log(sidebar.style.minHeight);
+            } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (id !== 'work1')) {
+              console.log('about true');
+              console.log(id);
+              sidebar.style.minHeight = '180vh';
+              console.log(sidebar.style.minHeight);
+            }
+
+            // if(sidebar.style.minHeight == '' && id !== 'work') {
+            //   sidebar.style.minHeight = '180vh';
+            // } else {
+            //   sidebar.style.minHeight = '280vh';
+            // }
+            section.style.display = 'flex';
+            section.classList.add('open');
+            section.scrollTop = 0;
+          }
+
+
+        }
+        //-->
+    </script>
+  </head>
+  <body id='body'>
+    <div id='sidebar'>
+      <div class='social'><a href='https://www.linkedin.com/in/monicakornis/' id='Linkedin'>Linkedin</a></div>
+      <div class='social'><a href='https://angel.co/monica-kornis' id='AngelList'>AngelList</a></div>
+      <div class='social'><a href='https://github.com/MonicaKornis' id='Github'>Github</a></div>
+      <div class='social'><a href=''id='Email'>Email</a></div>
+    </div>
+
+    <div id='main'>
+      <div class="name">
+        <div id='label'><p class='transition'>Monica</p><p class='transition'> Kornis</p></div>
+      </div>
+      <div class="about">
+        <div id='label' onclick="toggleDropdown('about1');"> <p class='plus'>+</p> <p class='transition'>About</p></div>
+      </div>
+      <div class="about" id='about1'>
+        <p class='about' id='aboutMe'>Hi my name is Monica! Lorem ipsum dolor sit amet, vocent apeirian interesset ad eos, ex his movet vidisse elaboraret. Graeco corrumpit no has, ne quas dicunt vulputate mei, ei sit epicurei evertitur. Sed eu altera dolores persecuti, legendos persequeris ex quo. Vim dictas inermis aliquando in, ne vix apeirian appellantur, sea ad summo dicam partem. Sumo mundi eirmod te ius. Sed accusam verterem vituperatoribus no, wisi recusabo oportere ea sed.</p>
+      </div>
+
+      <div class="work">
+        <div id='label' onclick="toggleDropdown('work1');"><p class='plus'>+</p> <p class='transition'>Work</p></div>
+        </div>
+
+        <div class="work" id=work1>
+          <div class="project1" id='project' >
+            <div div class="image" id="imgWrapper1">
+              <div class="image" id='image1'>
+                <h1 class='imageHead' id='imageHeader'>Delish</h1>
+                <a id='imageLink' href='https://delish-app.herokuapp.com/#/'>View Here</a>
+              </div>
+            </div>
+
+            <div id="description">
+              <p>Delish is a full-stack application that allows users to browse, bookmark, and share recipes. It was inspired by New York Times Cooking. Delish was built using React, Redux, Rails and PostgreSQL. </p>
+            </div>
+          </div>
+
+          <div class="project1" id='project' >
+
+            <div div class="image" id="imgWrapper2">
+              <div class="image" id='image1'>
+                <h1  class='imageHead' id='imageHeader2'>The Legend Of Chibi</h1>
+                <a id='imageLink' href='http://monica-kornis.com/LegendOfChibi/'>View Here</a>
+              </div>
+            </div>
+
+            <div id="description">
+              <p>The Legend of Chibi is a classic endless runner game, inspired by the likes of Sonic Dash, Temple Run, and Subway Surfers. The main goal of the game is to collect magic potions. If you accidentally collect one of the red death orbs or get hit by an alien beam, your points will decrease by 5. The Legend of Chibi was built using JavaScript and HTML Canvas.</p>
+            </div>
+          </div>
+
+          <div class="project1" id='project' >
+
+            <div div class="image" id="imgWrapper3">
+              <div class="image" id='image1'>
+                <h1  class='imageHead' id='imageHeader'>FanDOM</h1>
+                <a id='imageLink' href='https://github.com/MonicaKornis/fanDOM/tree/master/lib'>View Here</a>
+              </div>
+            </div>
+
+            <div id="description">
+              <p>FanDOM is a DOM manipulation library. </p>
+            </div>
+          </div>
+      </div>
+
+      <a id='resumeLink' class='resume' href="images/resume.pdf" target="_blank"><div class="resume">
+        <div id='label'><p class='plus'>+</p> <p class='transition'>Resume</p></div>
+      </div></a>
+    <div>
+  </body>
+</html>
+
+<!-- <img class='image' src="images/delish.gif" id='image1' alt="" /> -->
