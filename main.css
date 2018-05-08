@@ -717,7 +717,7 @@ span.image#image1 {
 
 @media (min-aspect-ratio: 18/9) {
   div.image#image1:hover {
-    top: -20px;
+    top: -21px;
     left: 0;
     margin-left: 0;
     align-self: center;
