@@ -272,6 +272,80 @@ span.image#image1 {
   position: relative;
 }
 
+@media (min-aspect-ratio: 10/12) {
+  div.image#image1:hover {
+    top: 12px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 14%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 11vh;
+    padding-top: 4vh;
+  }
+
+}
+
+@media (min-aspect-ratio: 11/12) {
+  div.image#image1:hover {
+    top: 12px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 16%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 6vh;
+    padding-top: 6vh;
+  }
+}
+
 @media (min-aspect-ratio: 4/4) {
   div.image#image1:hover {
     top: 12px;
@@ -289,9 +363,23 @@ span.image#image1 {
     font-weight: 600;
     /* transition-timing-function: ease-out;
     transition: .5s; */
-    padding-top: 22%;
+    padding-top: 24%;
     margin-left: 0;
     transition: none;
+  }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 6vh;
+    padding-top: 6vh;
   }
 }
 
@@ -316,6 +404,20 @@ span.image#image1 {
     margin-left: 0;
     transition: none;
   }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 6vh;
+    padding-top: 6vh;
+  }
 }
 
 @media (min-aspect-ratio: 13/9) {
@@ -338,6 +440,20 @@ span.image#image1 {
     padding-top: 36%;
     margin-left: 0;
     transition: none;
+  }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 6vh;
+    padding-top: 6vh;
   }
 }
 
@@ -362,6 +478,20 @@ span.image#image1 {
     margin-left: 0;
     transition: none;
   }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 6vh;
+    padding-top: 6vh;
+  }
 }
 
 @media (min-aspect-ratio: 17/9) {
@@ -385,6 +515,20 @@ span.image#image1 {
     margin-left: 0;
     transition: none;
   }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 6vh;
+    padding-top: 6vh;
+  }
 }
 
 @media (min-aspect-ratio: 18/9) {
@@ -407,6 +551,20 @@ span.image#image1 {
     padding-top: 43%;
     margin-left: 0;
     transition: none;
+  }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 6vh;
+    padding-top: 6vh;
   }
 }
 
@@ -468,19 +626,6 @@ h1.imageHead#imageHeader2 {
   top: 13%;
 }
 
-a#imageLink {
-  cursor: pointer;
-  z-index: 1;
-  text-decoration: none;
-  color: yellow;
-  font-size: 50%;
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
-  transition: none;
-  position: relative;
-  top: 6vh;
-  padding-top: 6vh;
-}
 
 a#imageLink:hover {
   color: yellow;
