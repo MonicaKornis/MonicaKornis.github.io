@@ -326,7 +326,7 @@ span.image#image1 {
     font-weight: 600;
     /* transition-timing-function: ease-out;
     transition: .5s; */
-    padding-top: 16%;
+    padding-top: 13%;
     margin-left: 0;
     transition: none;
   }
@@ -341,7 +341,7 @@ span.image#image1 {
     padding: 0px 0px 0px 0px;
     transition: none;
     position: relative;
-    top: 6vh;
+    top: 10vh;
     padding-top: 6vh;
   }
 }
@@ -363,7 +363,44 @@ span.image#image1 {
     font-weight: 600;
     /* transition-timing-function: ease-out;
     transition: .5s; */
-    padding-top: 24%;
+    padding-top: 21%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  a#imageLink {
+    cursor: pointer;
+    z-index: 1;
+    text-decoration: none;
+    color: yellow;
+    font-size: 50%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    transition: none;
+    position: relative;
+    top: 8vh;
+    padding-top: 6vh;
+  }
+}
+
+@media (min-aspect-ratio: 12/10) {
+  div.image#image1:hover {
+    top: 12px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 25%;
     margin-left: 0;
     transition: none;
   }
