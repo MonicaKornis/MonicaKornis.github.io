@@ -427,7 +427,7 @@ span.image#image1 {
 
 @media (min-aspect-ratio: 12/10) {
   div.image#image1:hover {
-    top: 6px;
+    top: 8px;
     left: 0;
     margin-left: 0;
     align-self: center;
@@ -442,7 +442,7 @@ span.image#image1 {
     font-weight: 600;
     /* transition-timing-function: ease-out;
     transition: .5s; */
-    padding-top: 25%;
+    padding-top: 26%;
     margin-left: 0;
     transition: none;
   }
