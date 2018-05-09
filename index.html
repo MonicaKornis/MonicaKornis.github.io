@@ -27,31 +27,37 @@
 
             if((aboutStyle === 'none'|| aboutStyle === '') && (workStyle === 'none' || workStyle === '')) {
               sidebar.style.minHeight = '110vh';
-            } else if ((aboutStyle === 'none'|| aboutStyle === '') && (workStyle !== 'none' || workStyle !== '')) {
+            } else if ((aboutStyle === 'none'|| aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
               sidebar.style.minHeight = '220vh';
+            } else if ((aboutStyle !== 'none' && aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
+              sidebar.style.minHeight = '290vh';
             }
 
 
           } else if (section.style.display == '' || section.style.display == 'none' ) {
 
-            let aboutStyle = document.getElementById('about1').style.display;
-            let workStyle = document.getElementById('work1').style.display;
-
-            console.log(aboutStyle);
             section.style.display = 'flex';
             section.classList.add('open');
             section.scrollTop = 0;
-            console.log('HELLO');
 
-            if((aboutStyle === 'none'|| aboutStyle === '') && (id === 'work1')) {
+            let aboutStyle = document.getElementById('about1').style.display;
+            let workStyle = document.getElementById('work1').style.display;
+
+
+            console.log('HELLO');
+            console.log(aboutStyle);
+            console.log(workStyle);
+
+            if((aboutStyle === 'none' || aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
               sidebar.style.minHeight = '220vh';
               console.log('work true');
               console.log(sidebar.style.minHeight);
-            } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (id === 'work1')) {
+            } else if((aboutStyle !== 'none' && aboutStyle !== '') && (workStyle !== 'none' && workStyle !== '')) {
               console.log('both true');
               sidebar.style.minHeight = '290vh';
               console.log(sidebar.style.minHeight);
-            } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (id !== 'work1')) {
+              console.log(workStyle);
+            } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (workStyle === 'none' || workStyle === '')) {
               console.log('about true');
               console.log(id);
               sidebar.style.minHeight = '180vh';
