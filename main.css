@@ -294,6 +294,27 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1{
+    top: 12px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 14%;
+    margin-left: 0;
+    transition: none;
+  }
+
   a#imageLink {
     cursor: pointer;
     z-index: 1;
@@ -331,6 +352,26 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1 {
+    top: 12px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 13%;
+    margin-left: 0;
+    transition: none;
+  }
+
   div.image#image2:hover {
     top: 6px;
     left: 0;
@@ -342,6 +383,27 @@ span.image#image1 {
     width: 100%;
     color: rgba(255, 0, 0,1);
     /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 11%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image2 {
+    top: 6px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
     text-align: center;
     font-size: 7vh;
     font-weight: 600;
@@ -389,6 +451,27 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1 {
+    top: 12px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 21%;
+    margin-left: 0;
+    transition: none;
+  }
+
   div.image#image2:hover {
     top: 4px;
     left: 0;
@@ -400,6 +483,27 @@ span.image#image1 {
     width: 100%;
     color: rgba(255, 0, 0,1);
     /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 20%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image2 {
+    top: 4px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
     text-align: center;
     font-size: 7vh;
     font-weight: 600;
@@ -447,6 +551,27 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1 {
+    top: 8px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 26%;
+    margin-left: 0;
+    transition: none;
+  }
+
   div.image#image2:hover {
     top: 12px;
     left: 0;
@@ -458,6 +583,27 @@ span.image#image1 {
     width: 100%;
     color: rgba(255, 0, 0,1);
     /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 24%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image2 {
+    top: 12px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
     text-align: center;
     font-size: 7vh;
     font-weight: 600;
@@ -505,6 +651,27 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1 {
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 32%;
+    margin-left: 0;
+    transition: none;
+  }
+
   div.image#image2:hover {
     top: 1px;
     left: 0;
@@ -516,6 +683,27 @@ span.image#image1 {
     width: 100%;
     color: rgba(255, 0, 0,1);
     /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 29%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image2 {
+    top: 1px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
     text-align: center;
     font-size: 7vh;
     font-weight: 600;
@@ -563,6 +751,27 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1 {
+    top: -2px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 36%;
+    margin-left: 0;
+    transition: none;
+  }
+
   div.image#image2:hover {
     top: -2px;
     left: 0;
@@ -574,6 +783,27 @@ span.image#image1 {
     width: 100%;
     color: rgba(255, 0, 0,1);
     /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 33%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image2 {
+    top: -2px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
     text-align: center;
     font-size: 7vh;
     font-weight: 600;
@@ -642,6 +872,48 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1 {
+    top: -13px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 39%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image2 {
+    top: -2px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 35%;
+    margin-left: 0;
+    transition: none;
+  }
+
   a#imageLink {
     cursor: pointer;
     z-index: 1;
@@ -655,6 +927,7 @@ span.image#image1 {
     top: 6vh;
     padding-top: 6vh;
   }
+
 }
 
 @media (min-aspect-ratio: 17/9) {
@@ -700,6 +973,48 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image2 {
+    top: -20px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 42%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image1 {
+    top:-13px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 40%;
+    margin-left: 0;
+    transition: none;
+  }
+
   a#imageLink {
     cursor: pointer;
     z-index: 1;
@@ -737,6 +1052,27 @@ span.image#image1 {
     transition: none;
   }
 
+  div.image#image1 {
+    top: -21px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 43%;
+    margin-left: 0;
+    transition: none;
+  }
+
   div.image#image2:hover {
     top: -20px;
     left: 0;
@@ -748,6 +1084,27 @@ span.image#image1 {
     width: 100%;
     color: rgba(255, 0, 0,1);
     /* display: none; */
+    text-align: center;
+    font-size: 7vh;
+    font-weight: 600;
+    /* transition-timing-function: ease-out;
+    transition: .5s; */
+    padding-top: 42%;
+    margin-left: 0;
+    transition: none;
+  }
+
+  div.image#image2 {
+    top: -20px;
+    left: 0;
+    margin-left: 0;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0, 0, 255,.8);
+    width: 100%;
+    color: rgba(255, 0, 0,1);
+    display: none;
     text-align: center;
     font-size: 7vh;
     font-weight: 600;
@@ -773,41 +1130,6 @@ span.image#image1 {
   }
 }
 
-div.image#image1 {
-  top: 0;
-  left: 0;
-  align-self: center;
-  position: absolute;
-  background-color: rgba(0, 0, 0,0);
-  width: 100%;
-  font-size: 0;
-  display: none;
-  /* transition-timing-function: linear;
-  transition: .1s; */
-  opacity: 0;
-  padding-top: 42%;
-  margin-left: 0;
-  color: rgba(0, 0, 0,0);
-  transition: none;
-}
-
-div.image#image2 {
-  top: 0;
-  left: 0;
-  align-self: center;
-  position: absolute;
-  background-color: rgba(0, 0, 0,0);
-  width: 100%;
-  font-size: 0;
-  display: none;
-  /* transition-timing-function: linear;
-  transition: .1s; */
-  opacity: 0;
-  padding-top: 42%;
-  margin-left: 0;
-  color: rgba(0, 0, 0,0);
-  transition: none;
-}
 
 div.image#image1 * {
   opacity: 0;
