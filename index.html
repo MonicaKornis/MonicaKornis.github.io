@@ -5,64 +5,66 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,300i,400,600,600i,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700,900" rel="stylesheet">
     <title>Monica Ngoc Lan Kornis</title>
     <link rel="icon" type="image/png" href="favicon.ico">
     <script type="text/javascript" async>
     <!--
-        function toggleDropdown(id) {
-          let section = document.getElementById(id);
-          let sidebar = document.getElementById('sidebar');
+        // function toggleDropdown(id) {
+        //   let section = document.getElementById(id);
+        //   let sidebar = document.getElementById('sidebar');
 
 
-          console.log(section.style.display);
+        //   console.log(section.style.display);
 
-          if(section.style.display == 'flex') {
-            section.style.display = 'none';
-            sidebar.style.minHeight = '180vh';
+        //   if(section.style.display == 'flex') {
+        //     section.style.display = 'none';
+        //     sidebar.style.minHeight = '180vh';
 
-            let aboutStyle = document.getElementById('about1').style.display;
-            let workStyle = document.getElementById('work1').style.display;
+        //     let aboutStyle = document.getElementById('about1').style.display;
+        //     let workStyle = document.getElementById('work1').style.display;
 
-            if((aboutStyle === 'none'|| aboutStyle === '') && (workStyle === 'none' || workStyle === '')) {
-              sidebar.style.minHeight = '110vh';
-            } else if ((aboutStyle === 'none'|| aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
-              sidebar.style.minHeight = '220vh';
-            } else if ((aboutStyle !== 'none' && aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
-              sidebar.style.minHeight = '290vh';
-            }
-
-
-          } else if (section.style.display == '' || section.style.display == 'none' ) {
-
-            section.style.display = 'flex';
-            section.classList.add('open');
-            section.scrollTop = 0;
-
-            let aboutStyle = document.getElementById('about1').style.display;
-            let workStyle = document.getElementById('work1').style.display;
+        //     if((aboutStyle === 'none'|| aboutStyle === '') && (workStyle === 'none' || workStyle === '')) {
+        //       sidebar.style.minHeight = '110vh';
+        //     } else if ((aboutStyle === 'none'|| aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
+        //       sidebar.style.minHeight = '220vh';
+        //     } else if ((aboutStyle !== 'none' && aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
+        //       sidebar.style.minHeight = '290vh';
+        //     }
 
 
-            console.log('HELLO');
-            console.log(aboutStyle);
-            console.log(workStyle);
+        //   } else if (section.style.display == '' || section.style.display == 'none' ) {
 
-            if((aboutStyle === 'none' || aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
-              sidebar.style.minHeight = '220vh';
-              console.log('work true');
-              console.log(sidebar.style.minHeight);
-            } else if((aboutStyle !== 'none' && aboutStyle !== '') && (workStyle !== 'none' && workStyle !== '')) {
-              console.log('both true');
-              sidebar.style.minHeight = '290vh';
-              console.log(sidebar.style.minHeight);
-              console.log(workStyle);
-            } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (workStyle === 'none' || workStyle === '')) {
-              console.log('about true');
-              console.log(id);
-              sidebar.style.minHeight = '180vh';
-              console.log(sidebar.style.minHeight);
-            }
+        //     section.style.display = 'flex';
+        //     section.classList.add('open');
+        //     section.scrollTop = 0;
+
+        //     let aboutStyle = document.getElementById('about1').style.display;
+        //     let workStyle = document.getElementById('work1').style.display;
+
+
+        //     console.log('HELLO');
+        //     console.log(aboutStyle);
+        //     console.log(workStyle);
+
+        //     if((aboutStyle === 'none' || aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
+        //       sidebar.style.minHeight = '220vh';
+        //       console.log('work true');
+        //       console.log(sidebar.style.minHeight);
+        //     } else if((aboutStyle !== 'none' && aboutStyle !== '') && (workStyle !== 'none' && workStyle !== '')) {
+        //       console.log('both true');
+        //       sidebar.style.minHeight = '290vh';
+        //       console.log(sidebar.style.minHeight);
+        //       console.log(workStyle);
+        //     } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (workStyle === 'none' || workStyle === '')) {
+        //       console.log('about true');
+        //       console.log(id);
+        //       sidebar.style.minHeight = '180vh';
+        //       console.log(sidebar.style.minHeight);
+        //     }
 
             // if(sidebar.style.minHeight == '' && id !== 'work') {
             //   sidebar.style.minHeight = '180vh';
@@ -70,26 +72,38 @@
             //   sidebar.style.minHeight = '280vh';
             // }
 
-          }
+          // }
 
 
-        }
+        // }
         //-->
     </script>
   </head>
   <body id='body'>
-    <div id='sidebar'>
+    <!-- <div id='sidebar'>
       <div class='social'><a href='https://www.linkedin.com/in/monicakornis/' id='Linkedin'>Linkedin</a></div>
       <div class='social'><a href='https://angel.co/monica-kornis' id='AngelList'>AngelList</a></div>
       <div class='social'><a href='https://github.com/MonicaKornis' id='Github'>Github</a></div>
       <div class='social'><a href='mailto:2011mkornis@gmail.com' id='Email'>Email</a></div>
-    </div>
+    </div> -->
 
     <div id='main'>
       <div class="name">
-        <div id='label'><p class='transition'>Monica</p><p class='transition'> Kornis</p></div>
+        <div id='label'><h3 class='transition'>Hi, I’m Monica. I'm a front-end engineer with over half a decade of experience building dynamic, interactive websites and solving challenging technical problems
+        </h3></div>
       </div>
-      <div class="about">
+
+      <div class="contact-links">
+        <div><a href='https://www.linkedin.com/in/monicakornis/' id='Linkedin'>Linkedin</a></div>
+        <div><a href='https://github.com/MonicaKornis' id='Github'>Github</a></div>
+        <div><a href='mailto:2011mkornis@gmail.com' id='Email'>Email</a></div>
+        <div> <a id='resumeLink' class='resume' href="images/resume.pdf" target="_blank"><div class="resume">
+          <div><p class='transition'>Resume</p></div>
+        </div></a></div>
+      </div>
+
+
+      <!-- <div class="about">
         <div id='label' onclick="toggleDropdown('about1');"> <p class='plus'>+</p> <p class='transition'>About</p></div>
       </div>
       <div class="about" id='about1'>
@@ -97,31 +111,33 @@
 
         In my spare time, I enjoy cooking, reading, and spending time with my two cats – Chibi Mochi and Papi Chulo.
         </p>
-      </div>
+      </div> -->
 
-      <div class="work">
-        <div id='label' onclick="toggleDropdown('work1');"><p class='plus'>+</p> <p class='transition'>Work</p></div>
+      <div class="work-container">
+        <div id='label' onclick="toggleDropdown('work1');"><p class='transition'>Projects</p></div>
         </div>
 
-        <div class="work" id=work1>
+        <div class="work">
           <div class="project1" id='project' >
+            <h3>Delish</h3>
             <div div class="image" id="imgWrapper1">
               <div class="image" id='image1'>
-                <h1 class='imageHead' id='imageHeader'>Delish</h1>
+                <h3 class='imageHead' id='imageHeader'>Delish</h3>
                 <a id='imageLink' href='https://delish-app.herokuapp.com/#/'>View Here</a>
               </div>
             </div>
 
             <div id="description">
+
               <p>Delish is a full-stack application that allows users to browse, bookmark, and share recipes. It was inspired by New York Times Cooking. Delish was built using React, Redux, Rails and PostgreSQL. </p>
             </div>
           </div>
 
           <div class="project1" id='project' >
-
+            <h3>Legend of Chibi</h3>
             <div div class="image" id="imgWrapper2">
               <div class="image" id='image2'>
-                <h1  class='imageHead' id='imageHeader2'>The Legend Of Chibi</h1>
+                <h3  class='imageHead' id='imageHeader2'>The Legend Of Chibi</h3>
                 <a id='imageLink' href='http://monica-kornis.com/LegendOfChibi/'>View Here</a>
               </div>
             </div>
@@ -132,10 +148,10 @@
           </div>
 
           <div class="project1" id='project' >
-
+            <h3>FanDOM</h3>
             <div div class="image" id="imgWrapper3">
               <div class="image" id='image1'>
-                <h1  class='imageHead' id='imageHeader'>FanDOM</h1>
+                <h3  class='imageHead' id='imageHeader'>FanDOM</h3>
                 <a id='imageLink' href='https://github.com/MonicaKornis/fanDOM/tree/master/lib'>View Here</a>
               </div>
             </div>
@@ -146,9 +162,18 @@
           </div>
       </div>
 
-      <a id='resumeLink' class='resume' href="images/resume.pdf" target="_blank"><div class="resume">
-        <div id='label'><p class='plus'>+</p> <p class='transition'>Resume</p></div>
-      </div></a>
+      <div class="work-container">
+        <div id='label' onclick="toggleDropdown('work1');"><p class='transition'>Resume</p></div>
+     
+
+        <div class="project1" id='project' >
+          <h3>Klaviyo</h3>
+          <div id="description">
+            <p>FanDOM is a DOM manipulation library. The $l selector enables users to easily select elements in the DOM by class or id. FanDOM can also be used to make AJAX requests and handle events.</p>
+          </div>
+          </div>
+      </div>
+
     <div>
   </body>
 </html>
