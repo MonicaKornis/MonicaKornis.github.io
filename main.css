@@ -53,45 +53,13 @@ html {
   font-size: 1px;
 }
 
-.social a:link {
-  text-decoration: none;
-  color: red;
-}
-
 /* visited link */
-.social a:visited {
-  text-decoration: none;
-  color: red;
-}
-
-/* mouse over link */
-.social a#Github:hover  {
-  text-decoration: none;
-  color: yellow;
-}
-
-.social a#Email:hover {
-  text-decoration: none;
-  color: yellow;
-}
-
-.social a#Linkedin:hover {
-  text-decoration: none;
-  color: yellow;
-}
-
-.social a#AngelList:hover {
-  text-decoration: none;
-  color: yellow;
-}
-
-div.social {
-  display: hidden;
-}
-
-a, a:visited, a:hover, a:active {
+a {
   color: inherit;
 }
+ a:hover, a:active {
+  text-shadow: 0px 0px 1px white, 1px 1px 2px rgb(123, 123, 128);
+ }
 
 /* #sidebar:hover {
   align-items: center;
@@ -146,6 +114,7 @@ div#main .name {
   width: 85%;
   margin-top: 40px;
   border-bottom: 1px solid white;
+  margin-bottom: 102px;
 }
 
 .contact-links * {
@@ -160,38 +129,23 @@ div#main .name {
 }
 
 
-p.transition:hover {
-  letter-spacing: 3px;
-}
-
 #description {
   font-size: 19px;
   margin-top: 30px;
-  width: 115%;
+  width: 108%;
   font-weight: 200;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   line-height: 24.2px;
+  padding-right: 10px;
 }
 
-p.plus {
-  margin: 3px;
+.work-description > p {
+  margin-top: 5px;
+  font-size: 15px;
 }
 
-p.plus:hover {
-  transform: rotate(360deg);
-  cursor: pointer;
-}
-
-p:hover {
-  color: blue;
-}
-
-div.about#about1 {
-  display: none;
-}
-
-p.about#aboutMe {
-  display: block;
+.job-title {
+  font-weight: 300;
 }
 
 div.about.open#about1 {
@@ -208,10 +162,6 @@ div.about.open#about1 {
   outline: .5px solid yellow;
   margin-bottom: 5vh;
   transition: none;
-}
-
-div.about.open#about1:hover {
-  outline: .5px solid red;
 }
 
 div.work#work1 {
@@ -245,21 +195,18 @@ div.work#work1 {
 } */
 
 .work-container {
-  margin-top: 100px;
+  margin-top: 46px;
   margin-left: 37px;
+  padding-bottom: 1px;
 }
 
-.work {
-  margin-left: 39px;
-  margin-top: 60px;
-}
+/* .work {
+  padding-right: 35px;
+} */
 
-div.work.open#work1:hover {
-  outline: .5px solid red;
-}
 
-div.project1#project {
-  width: 80%;
+div.project1 {
+  width: 85%;
   transition: none;
 }
 
@@ -292,7 +239,7 @@ img#image1 {
 
 #label {
   font-size: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 44px;
 }
 
 .project1 > h3 {
@@ -307,26 +254,6 @@ span.image#image1 {
 }
 
 @media (min-aspect-ratio: 10/12) {
-  div.image#image1:hover {
-    top: 12px;
-    left: 0;
-    margin-left: 0;
-    align-self: center;
-    position: absolute;
-    opacity: 1;
-    background-color: rgba(0, 0, 255,.8);
-    width: 100%;
-    color: rgba(255, 0, 0,1);
-    /* display: none; */
-    text-align: center;
-    font-size: 7vh;
-    font-weight: 600;
-    /* transition-timing-function: ease-out;
-    transition: .5s; */
-    padding-top: 14%;
-    margin-left: 0;
-    transition: none;
-  }
 
   div.image#image1{
     top: 12px;
@@ -349,42 +276,9 @@ span.image#image1 {
     transition: none;
   }
 
-  a#imageLink {
-    cursor: pointer;
-    z-index: 1;
-    text-decoration: none;
-    color: yellow;
-    font-size: 50%;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    transition: none;
-    position: relative;
-    top: 11vh;
-    padding-top: 4vh;
-  }
-
 }
 
 @media (min-aspect-ratio: 11/12) {
-  div.image#image1:hover {
-    top: 12px;
-    left: 0;
-    margin-left: 0;
-    align-self: center;
-    position: absolute;
-    opacity: 1;
-    background-color: rgba(0, 0, 255,.8);
-    width: 100%;
-    color: rgba(255, 0, 0,1);
-    text-align: center;
-    font-size: 7vh;
-    font-weight: 600;
-    /* transition-timing-function: ease-out;
-    transition: .5s; */
-    padding-top: 13%;
-    margin-left: 0;
-    transition: none;
-  }
 
   div.image#image1 {
     top: 12px;
@@ -464,26 +358,7 @@ span.image#image1 {
 }
 
 @media (min-aspect-ratio: 4/4) {
-  div.image#image1:hover {
-    top: 12px;
-    left: 0;
-    margin-left: 0;
-    align-self: center;
-    position: absolute;
-    opacity: 1;
-    background-color: rgba(0, 0, 255,.8);
-    width: 100%;
-    color: rgba(255, 0, 0,1);
-    /* display: none; */
-    text-align: center;
-    font-size: 7vh;
-    font-weight: 600;
-    /* transition-timing-function: ease-out;
-    transition: .5s; */
-    padding-top: 21%;
-    margin-left: 0;
-    transition: none;
-  }
+
 
   div.image#image1 {
     top: 12px;
@@ -606,27 +481,6 @@ span.image#image1 {
     transition: none;
   }
 
-  div.image#image2:hover {
-    top: 12px;
-    left: 0;
-    margin-left: 0;
-    align-self: center;
-    position: absolute;
-    opacity: 1;
-    background-color: rgba(0, 0, 255,.8);
-    width: 100%;
-    color: rgba(255, 0, 0,1);
-    /* display: none; */
-    text-align: center;
-    font-size: 7vh;
-    font-weight: 600;
-    /* transition-timing-function: ease-out;
-    transition: .5s; */
-    padding-top: 24%;
-    margin-left: 0;
-    transition: none;
-  }
-
   div.image#image2 {
     top: 12px;
     left: 0;
@@ -664,26 +518,6 @@ span.image#image1 {
 }
 
 @media (min-aspect-ratio: 4/3) {
-  div.image#image1:hover {
-    top: 0;
-    left: 0;
-    margin-left: 0;
-    align-self: center;
-    position: absolute;
-    opacity: 1;
-    background-color: rgba(0, 0, 255,.8);
-    width: 100%;
-    color: rgba(255, 0, 0,1);
-    /* display: none; */
-    text-align: center;
-    font-size: 7vh;
-    font-weight: 600;
-    /* transition-timing-function: ease-out;
-    transition: .5s; */
-    padding-top: 32%;
-    margin-left: 0;
-    transition: none;
-  }
 
   div.image#image1 {
     top: 0;
@@ -1147,20 +981,6 @@ span.image#image1 {
     padding-top: 42%;
     margin-left: 0;
     transition: none;
-  }
-
-  a#imageLink {
-    cursor: pointer;
-    z-index: 1;
-    text-decoration: none;
-    color: yellow;
-    font-size: 50%;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    transition: none;
-    position: relative;
-    top: 6vh;
-    padding-top: 6vh;
   }
 }
 
