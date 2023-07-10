@@ -144,6 +144,11 @@ div#main .name {
   font-size: 15px;
 }
 
+.work-description > h3 {
+  font-weight: bold;
+  font-size: 27px;
+}
+
 .job-title {
   font-weight: 300;
 }
@@ -205,10 +210,15 @@ div.work#work1 {
 }
 
 
-div.project1 {
-  width: 85%;
+div.project1, div.project1-personal {
+  width: 80%;
   transition: none;
 }
+
+/* div.project1-personal {
+  width: 85%;
+  transition: none;
+} */
 
 img#image1 {
   align-self: center;
@@ -243,7 +253,13 @@ img#image1 {
 }
 
 .project1 > h3 {
-  font-size: 24px;
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.project1-personal > h3 {
+  font-size: 27px;
   font-weight: 700;
   margin-bottom: 18px;
 }
@@ -253,7 +269,31 @@ span.image#image1 {
   position: relative;
 }
 
+.large-screen-title {
+  display: none;
+}
+/* 
 @media (min-width: 600px) {
+  #imgWrapper1, #imgWrapper2, #imgWrapper3 {
+    background-size: initial;
+    width: 114%;
+  }
+
+  .project1-personal {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+} */
+
+@media (min-width: 740px) {
+
+  div.project1, div.project1-personal {
+    width: 100%;
+    align-items: flex-start;
+    margin-bottom: 4vw;
+  } 
+
   .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -272,6 +312,61 @@ span.image#image1 {
 
   .contact-links {
     display: none;
+  }
+
+  .main-content {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .work-container {
+    border-top: 1px solid white;
+    padding-top: 57px;
+    margin-left: 7px;
+  }
+
+  .large-screen-title {
+    display: block;
+  }
+
+  .project1-personal > h3 {
+    display: none;
+  }
+
+  .project1-personal{
+    display: flex;
+    align-items: center;
+  }
+
+  #imgWrapper1, #imgWrapper2, #imgWrapper3 {
+    background-size: cover;
+    flex-basis: 700px;
+    padding-top: 168px;
+    margin-right: 36px;
+  }
+
+  .large-screen-title {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  #description {
+    margin-top: -4px;
+    width: 118%;
+  }
+
+  #description > p {
+    font-size: 18px;
+  }
+  .work-description {
+    margin-bottom: 14px;
+  }
+  
+  .project1 > #description {
+    width: 100%;
   }
 }
 
