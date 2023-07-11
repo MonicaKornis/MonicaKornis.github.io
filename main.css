@@ -91,7 +91,7 @@ a.Linkedin:hover, a.AngelList:hover, a.Github:hover, a.Email:hover, {
 #main {
   font-size: 32px;
   font-family: 'Inter';
-  font-weight: lighter;
+  font-weight: 300;
 }
 
 div#main .name {
@@ -142,11 +142,12 @@ div#main .name {
 .work-description > p {
   margin-top: 7px;
   font-size: 15px;
+  color: rgb(255 255 255 / 70%);
 }
 
 .work-description > h3 {
   font-weight: bold;
-  font-size: 27px;
+  font-size: 23px;
 }
 
 .job-title {
@@ -207,6 +208,7 @@ div.work#work1 {
 
 .nav-bar {
   display: none;
+  font-size: 23px;
 }
 
 
@@ -291,7 +293,7 @@ span.image#image1 {
   div.project1, div.project1-personal {
     width: 100%;
     align-items: flex-start;
-    margin-bottom: 4vw;
+    margin-bottom: 6vw;
   } 
 
   .nav-bar {
@@ -327,10 +329,6 @@ span.image#image1 {
     margin-left: 7px;
   }
 
-  .large-screen-title {
-    display: block;
-  }
-
   .project1-personal > h3 {
     display: none;
   }
@@ -348,9 +346,10 @@ span.image#image1 {
   }
 
   .large-screen-title {
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 700;
     margin-bottom: 12px;
+    display: block;
   }
 
   #description {
