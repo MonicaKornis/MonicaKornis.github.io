@@ -128,8 +128,19 @@ div#main .name {
   font-size: 27px;
 }
 
+.bullet-point-section {
+  display: flex;
+  align-items: self-start;
+  margin-bottom: 10px;
+}
 
-#description {
+.bullet-point {
+  width: 12px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.description {
   font-size: 19px;
   margin-top: 30px;
   width: 108%;
@@ -137,6 +148,12 @@ div#main .name {
   margin-bottom: 40px;
   line-height: 24.2px;
   padding-right: 10px;
+}
+
+div.description.work {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .work-description > p {
@@ -352,19 +369,19 @@ span.image#image1 {
     display: block;
   }
 
-  #description {
+  .description {
     margin-top: -4px;
     width: 118%;
   }
 
-  #description > p {
+  .description > p {
     font-size: 17px;
   }
   .work-description {
     margin-bottom: 14px;
   }
   
-  .project1 > #description {
+  .project1 > .description {
     width: 100%;
   }
 }

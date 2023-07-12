@@ -14,71 +14,6 @@
     <title>Monica Ngoc Lan Kornis</title>
     <link rel="icon" type="image/png" href="favicon.ico">
     <script type="text/javascript" async>
-    <!--
-        // function toggleDropdown(id) {
-        //   let section = document.getElementById(id);
-        //   let sidebar = document.getElementById('sidebar');
-
-
-        //   console.log(section.style.display);
-
-        //   if(section.style.display == 'flex') {
-        //     section.style.display = 'none';
-        //     sidebar.style.minHeight = '180vh';
-
-        //     let aboutStyle = document.getElementById('about1').style.display;
-        //     let workStyle = document.getElementById('work1').style.display;
-
-        //     if((aboutStyle === 'none'|| aboutStyle === '') && (workStyle === 'none' || workStyle === '')) {
-        //       sidebar.style.minHeight = '110vh';
-        //     } else if ((aboutStyle === 'none'|| aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
-        //       sidebar.style.minHeight = '220vh';
-        //     } else if ((aboutStyle !== 'none' && aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
-        //       sidebar.style.minHeight = '290vh';
-        //     }
-
-
-        //   } else if (section.style.display == '' || section.style.display == 'none' ) {
-
-        //     section.style.display = 'flex';
-        //     section.classList.add('open');
-        //     section.scrollTop = 0;
-
-        //     let aboutStyle = document.getElementById('about1').style.display;
-        //     let workStyle = document.getElementById('work1').style.display;
-
-
-        //     console.log('HELLO');
-        //     console.log(aboutStyle);
-        //     console.log(workStyle);
-
-        //     if((aboutStyle === 'none' || aboutStyle === '') && (workStyle !== 'none' && workStyle !== '')) {
-        //       sidebar.style.minHeight = '220vh';
-        //       console.log('work true');
-        //       console.log(sidebar.style.minHeight);
-        //     } else if((aboutStyle !== 'none' && aboutStyle !== '') && (workStyle !== 'none' && workStyle !== '')) {
-        //       console.log('both true');
-        //       sidebar.style.minHeight = '290vh';
-        //       console.log(sidebar.style.minHeight);
-        //       console.log(workStyle);
-        //     } else if((aboutStyle !== 'none'|| aboutStyle !== '') && (workStyle === 'none' || workStyle === '')) {
-        //       console.log('about true');
-        //       console.log(id);
-        //       sidebar.style.minHeight = '180vh';
-        //       console.log(sidebar.style.minHeight);
-        //     }
-
-            // if(sidebar.style.minHeight == '' && id !== 'work') {
-            //   sidebar.style.minHeight = '180vh';
-            // } else {
-            //   sidebar.style.minHeight = '280vh';
-            // }
-
-          // }
-
-
-        // }
-        //-->
     </script>
   </head>
   <body id='body'>
@@ -134,7 +69,7 @@
                 </div>
               </div>
 
-              <div id="description">
+              <div class="description">
                 <h3 class="large-screen-title">Delish</h3>
                 <p>Delish is a full-stack application that allows users to browse, bookmark, and share recipes. It was inspired by New York Times Cooking. Delish was built using React, Redux, Rails and PostgreSQL. </p>
               </div>
@@ -149,7 +84,7 @@
                 </div>
               </div>
 
-              <div id="description">
+              <div class="description">
                 <h3 class="large-screen-title">The Legend of Chibi</h3>
                 <p>The Legend of Chibi is a classic endless runner game, inspired by the likes of Sonic Dash, Temple Run, and Subway Surfers. The main goal of the game is to collect magic potions. If you accidentally collect one of the red death orbs or get hit by an alien beam, your points will decrease by 5. The Legend of Chibi was built using JavaScript and HTML Canvas.</p>
               </div>
@@ -164,7 +99,7 @@
                 </div>
               </div>
 
-              <div id="description">
+              <div class="description">
                 <h3 class="large-screen-title">FanDOM</h3>
                 <p>FanDOM is a DOM manipulation library. The $l selector enables users to easily select elements in the DOM by class or id. FanDOM can also be used to make AJAX requests and handle events.</p>
               </div>
@@ -184,8 +119,10 @@
               <p class='job-title'>Software Engineer</p>
               <p>2022-2023</p>
               </div>
-              <div id="description">
-                <p>FanDOM is a DOM manipulation library. The $l selector enables users to easily select elements in the DOM by class or id. FanDOM can also be used to make AJAX requests and handle events.</p>
+              <div class="description work">
+                <div class="bullet-point-section">
+                  <img class='bullet-point' src="bulletpoint.svg" alt="bulletpoint" /><p>FanDOM is a DOM manipulation library. The $l selector enables users to easily select elements in the DOM by class or id. FanDOM can also be used to make AJAX requests and handle events.</p>
+                </div>
               </div>
             </div>
           
@@ -195,12 +132,15 @@
                 <p class='job-title'>Software Engineer</p>
                 <p>2021-2022</p>
               </div>
-                <div id="description">
-                  <p>Created an internal application responsible for housing real estate agent and customer data, along with processing leads to connect agents to prospective buyers/sellers. Thousands of leads have been processed through this application. Built using Typescript/React/GraphQL. <br/>
-                    <br/>
-                    Reviewed the quality of code for a web app used by real estate agents, which contributed to an increase in code readability as well performance improvements
+                <div class="description work">
+                  <div class="bullet-point-section">
+                   <img class='bullet-point' src="bulletpoint.svg" alt="bulletpoint" /><p>Created an internal application responsible for housing real estate agent and customer data, along with processing leads to connect agents to prospective buyers/sellers. Thousands of leads have been processed through this application. Built using Typescript/React/GraphQL.</p>
+                  </div>
+                  <div class="bullet-point-section">
+                    <img class='bullet-point' src="bulletpoint.svg" alt="bulletpoint" /> <p>Reviewed the quality of code for a web app used by real estate agents, which contributed to an increase in code readability as well performance improvements
                     Designed test plans and wrote test cases for our React components with Jest. Resulted in a 35% increase in test coverage in one sprint.
-                    Reduced our development time by 25% through the creation of reusable React components </p>
+                    Reduced our development time by 25% through the creation of reusable React components.</p>
+                  </div>
                 </div>
               </div>
                 
@@ -210,9 +150,11 @@
                   <p class='job-title'>Application Developer</p>
                   <p>2018-2021</p>
                 </div>
-                  <div id="description">
-                    <p>Design, implementation, and testing of new features for an HCM web application, as well as maintenance and enhancement of existing features. Quickly achieved fluency with an internal platform, applied and refined knowledge of web development best practices daily, and utilized a high degree of communication and collaboration with coworkers and other teams.
+                  <div class="description work">
+                    <div class="bullet-point-section">
+                    <img class='bullet-point' src="bulletpoint.svg" alt="bulletpoint" />  <p>Design, implementation, and testing of new features for an HCM web application, as well as maintenance and enhancement of existing features. Quickly achieved fluency with an internal platform, applied and refined knowledge of web development best practices daily, and utilized a high degree of communication and collaboration with coworkers and other teams.
                       </p>
+                    </div>
                   </div>
               </div>
             </div>
