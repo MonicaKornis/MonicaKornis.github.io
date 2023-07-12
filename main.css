@@ -38,55 +38,16 @@ html {
 
 }
 
-#sidebar {
-  background-color: red;
-  height: 100%;
-  min-height: 110vh;
-  min-width: 6vw;
-  cursor: pointer;
-  transition-timing-function: ease-out;
-  transition: .5s;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  font-family: 'Josefin Sans';
-  font-size: 1px;
-}
-
 /* visited link */
 a {
   color: inherit;
+  text-decoration: none;
 }
  a:hover, a:active {
-  text-shadow: 0px 0px 1px white, 1px 1px 2px rgb(123, 123, 128);
+  /* text-shadow: 1px 1px 1px white, 1px 1px 2px rgb(123, 123, 128); */
+  /* text-decoration: underline; */
+  font-weight: 500;
  }
-
-/* #sidebar:hover {
-  align-items: center;
-  min-width: 70vw;
-  transition-timing-function: ease-in;
-  transition: .5s;
-  color: white;
-  font-size:calc(5.5vw + 5vh + .5vmin);
-}
-
-#sidebar:hover * {
-  transition-timing-function: ease-in;
-  transition: .5s;
-  color: white;
-  font-size:calc(5vw + 4.5vh + .5vmin);
-  margin-top: 9vh;
-}
-
-#sidebar * {
-  margin-top: 9vh;
-  margin: 1vh;
-} */
-
-a.Linkedin:hover, a.AngelList:hover, a.Github:hover, a.Email:hover, {
-  color: yellow;
-}
-
 
 #main {
   font-size: 32px;
@@ -108,7 +69,7 @@ div#main .name {
   line-height: 38.73px;
 }
 
-.contact-links {
+.contact-links-small-screen {
   margin-left: 37px;
   margin-right: 22px;
   width: 85%;
@@ -117,11 +78,11 @@ div#main .name {
   margin-bottom: 102px;
 }
 
-.contact-links * {
+.contact-links-small-screen * {
   text-decoration: none;
 }
 
-.contact-links > div {
+.contact-links-small-screen > div {
   width: 100%;
   padding: 19px 0 19px 0;
   border-top: 1px solid white;
@@ -138,6 +99,24 @@ div#main .name {
   width: 12px;
   margin-right: 10px;
   margin-top: 10px;
+}
+
+.contact-buttons {
+  margin-left: 33px;
+  display: none;
+}
+
+.contact-button {
+  text-decoration: none;
+  padding: 15px 44px 15px 44px;
+  border: 1px solid white;
+  font-size: 17px;
+  margin-right: 17px;
+  font-weight: 400;
+}
+
+.contact-button:hover {
+  border: 2px solid white;
 }
 
 .description {
@@ -313,6 +292,10 @@ span.image#image1 {
     margin-bottom: 6vw;
   } 
 
+  .contact-buttons {
+    display: block;
+  }
+
   .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -323,13 +306,12 @@ span.image#image1 {
 
   .nav-bar a {
     margin: 0px 23px 0px 29px;
-    text-decoration: none;
   }
   .nav-bar h6 {
     margin: 0px 23px 0px 29px;
   }
 
-  .contact-links {
+  .contact-links-small-screen {
     display: none;
   }
 
