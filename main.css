@@ -42,7 +42,20 @@ html {
 a {
   color: inherit;
   text-decoration: none;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
 }
+
+ .nav-links {
+  display: flex;
+  width: 326px;
+  margin-right: 17px;
+  justify-content: space-between;
+ }
+
  a:hover, a:active {
   /* text-shadow: 1px 1px 1px white, 1px 1px 2px rgb(123, 123, 128); */
   /* text-decoration: underline; */
@@ -102,7 +115,6 @@ div#main .name {
 }
 
 .contact-buttons {
-  margin-left: 33px;
   display: none;
 }
 
@@ -293,7 +305,11 @@ span.image#image1 {
   } 
 
   .contact-buttons {
-    display: block;
+    display: flex;
+    margin-left: 33px;
+    width: 353px;
+    height: 53px;
+    justify-content: space-between;
   }
 
   .nav-bar {
