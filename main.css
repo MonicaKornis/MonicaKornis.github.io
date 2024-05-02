@@ -141,6 +141,7 @@ div#main .name {
   padding-right: 10px;
 }
 
+
 div.description.work {
   display: flex;
   align-items: flex-start;
@@ -180,6 +181,11 @@ div.about.open#about1 {
 
 div.work#work1 {
 }
+
+#resume-section {
+  visibility: hidden; /* HIDES RESUME SECTION!! */
+}
+
 
 /* div.work.open#work1 {
   flex-direction: row;
@@ -295,6 +301,11 @@ span.image#image1 {
     flex-direction: column;
 }
 } */
+
+.headshot {
+  clip-path: circle(40%);
+  width: 200px;
+}
 
 @media (min-width: 740px) {
 
